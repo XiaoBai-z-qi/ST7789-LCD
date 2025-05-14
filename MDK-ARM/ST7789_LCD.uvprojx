@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Drivers/My_Drivers/Inc;../Drivers/My_Drivers/Src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -496,6 +496,21 @@
               <FileName>system_stm32f1xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/system_stm32f1xx.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Drivers/My_Drivers</GroupName>
+          <Files>
+            <File>
+              <FileName>lcd_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\My_Drivers\Src\lcd_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd_driver.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\My_Drivers\Inc\lcd_driver.h</FilePath>
             </File>
           </Files>
         </Group>

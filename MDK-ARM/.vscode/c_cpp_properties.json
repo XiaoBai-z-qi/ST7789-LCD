@@ -8,6 +8,8 @@
                 "d:\\Sourcetree\\Documents\\ST7789_LCD\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
                 "d:\\Sourcetree\\Documents\\ST7789_LCD\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
                 "d:\\Sourcetree\\Documents\\ST7789_LCD\\Drivers\\CMSIS\\Include",
+                "d:\\Sourcetree\\Documents\\ST7789_LCD\\Drivers\\My_Drivers\\Inc",
+                "d:\\Sourcetree\\Documents\\ST7789_LCD\\Drivers\\My_Drivers\\Src",
                 "D:\\keil5\\Keil5\\ARM\\ARMCC\\include",
                 "D:\\keil5\\Keil5\\ARM\\ARMCC\\include\\rw",
                 "d:\\Sourcetree\\Documents\\ST7789_LCD\\MDK-ARM",
