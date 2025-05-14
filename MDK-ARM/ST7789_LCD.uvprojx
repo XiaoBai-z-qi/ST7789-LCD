@@ -512,6 +512,16 @@
               <FileType>5</FileType>
               <FilePath>..\Drivers\My_Drivers\Inc\lcd_driver.h</FilePath>
             </File>
+            <File>
+              <FileName>lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\My_Drivers\Src\lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\My_Drivers\Inc\lcd.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
