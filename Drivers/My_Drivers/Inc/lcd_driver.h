@@ -1,6 +1,9 @@
 #ifndef __LCD_DRIVER_H__
 #define __LCD_DRIVER_H__
 #include "main.h"
+#include "dma.h"
+#include "spi.h"
+#include "gpio.h"
 
 #define USE_HORIZONTAL 0  //设置横屏或者竖屏显示 0或1为竖屏 2或3为横屏
 

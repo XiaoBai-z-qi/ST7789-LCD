@@ -1,7 +1,4 @@
 #include "lcd_driver.h"
-#include "dma.h"
-#include "spi.h"
-#include "gpio.h"
 
 
 

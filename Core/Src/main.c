@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "lcd_driver.h"
+#include "lcd.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -91,13 +92,55 @@ int main(void)
   MX_DMA_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-
+  LCD_Init();
+  LCD_Fill(0,0,240 - 1,280 - 1,GRAY);
+  LCD_Fill(80, 80, 160, 160, WHITE);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  LCD_Fill(0, 0, 239, 279, WHITE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, BLACK);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, BLUE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, BRED);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, GRED);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, GBLUE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, RED);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, MAGENTA);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, GREEN);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, CYAN);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, YELLOW);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, BROWN);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, BRRED);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, GRAY);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, DARKBLUE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, LIGHTBLUE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, GRAYBLUE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, LIGHTGREEN);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, LGRAYBLUE);
+//	  HAL_Delay(100);
+	  LCD_Fill(0, 0, 239, 279, LBBLUE);
+//	  HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
